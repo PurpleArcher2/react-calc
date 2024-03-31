@@ -1,0 +1,90 @@
+body {
+  /* background-color: hsl(0, 0%, 90%); */
+  background-color: white;
+}
+
+.dark body {
+  background-color: hsl(222, 26%, 31%);
+}
+.bg-main-screen-white {
+  background-color: #ffffff; /* Default background color */
+}
+
+.text-dark-grayish-blue {
+  color: #4b5563; /* Default text color */
+}
+
+/* Dark mode styles */
+.dark .bg-main-screen-white {
+  background-color: #1f2937; /* Dark mode background color */
+}
+
+.dark .text-dark-grayish-blue {
+  color: #f3f4f6; /* Dark mode text color */
+}
+
+.dark .text-ligh-gray-main-keys {
+  color: #f3f4f6; /* Additional text color for dark mode */
+}
+
+.dark .bg-desaturated-blue-result {
+  background-color: #1f2937; /* Additional background color for dark mode */
+}
+
+.dark #root {
+  background-color: hsl(
+    222,
+    26%,
+    31%
+  ); /* Additional background color for dark mode */
+}
+
+.dark .bg-dark-cyan-del {
+  background-color: hsl(225, 21%, 49%);
+}
+
+.dark .bg-desaturated-blue-keypad {
+  background-color: #1f2937; /* Background color for keypad in dark mode */
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
