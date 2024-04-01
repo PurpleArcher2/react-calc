@@ -1,8 +1,29 @@
-# React + Vite
+# What were used in this project?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For this project / assignment; both React (Vite) and Tailwind were utilized in order to
+create a functioning calculator. The following calculator also is funcitonal on all sort of devices.
 
-Currently, two official plugins are available:
+# Dark Mode
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Wanted to take this challenge a bit further and went and designed a dark mode for the website.
+Again this mode is functional for all devices.
+
+# Screenshots
+
+### Light mode for PC
+
+![alt text](image.png)
+
+### Dark Mode for PC
+
+![alt text](image-1.png)
+
+### Light mode for Mobile
+
+![alt text](image-3.png)
+
+### Dark Mode for Mobile
+
+![alt text](image-2.png)
+
+Some features that I'd add. Allowing users to input the numbers via keyboard.
