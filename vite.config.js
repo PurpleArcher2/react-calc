@@ -8,7 +8,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "/react-calc/",
     },
   },
+  base: "./",
 });
